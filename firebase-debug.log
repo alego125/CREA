@@ -1,13 +1,13 @@
-[debug] [2022-06-25T14:18:05.656Z] ----------------------------------------------------------------------
-[debug] [2022-06-25T14:18:05.661Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ale\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-06-25T14:18:05.663Z] CLI Version:   11.1.0
-[debug] [2022-06-25T14:18:05.663Z] Platform:      win32
-[debug] [2022-06-25T14:18:05.663Z] Node Version:  v16.14.0
-[debug] [2022-06-25T14:18:05.665Z] Time:          Sat Jun 25 2022 11:18:05 GMT-0300 (hora estándar de Argentina)
-[debug] [2022-06-25T14:18:05.666Z] ----------------------------------------------------------------------
+[debug] [2022-06-25T14:30:30.956Z] ----------------------------------------------------------------------
+[debug] [2022-06-25T14:30:30.959Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ale\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-25T14:30:30.960Z] CLI Version:   11.1.0
+[debug] [2022-06-25T14:30:30.961Z] Platform:      win32
+[debug] [2022-06-25T14:30:30.961Z] Node Version:  v16.14.0
+[debug] [2022-06-25T14:30:30.962Z] Time:          Sat Jun 25 2022 11:30:30 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-06-25T14:30:30.963Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-06-25T14:18:05.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-06-25T14:18:05.786Z] > authorizing via signed-in user (saludmentalplena@gmail.com)
+[debug] [2022-06-25T14:30:31.115Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-25T14:30:31.117Z] > authorizing via signed-in user (saludmentalplena@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -30,12 +30,12 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2022-06-25T14:18:19.847Z] Using project from CLI flag: argentinaprograma-8c843
-[debug] [2022-06-25T14:18:19.852Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/argentinaprograma-8c843 [none]
-[debug] [2022-06-25T14:18:20.446Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/argentinaprograma-8c843 403
-[debug] [2022-06-25T14:18:20.446Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/argentinaprograma-8c843 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2022-06-25T14:18:20.447Z] HTTP Error: 403, The caller does not have permission
-[debug] [2022-06-25T14:18:20.651Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-25T14:30:53.156Z] Using project from CLI flag: argentinaprograma-8c843
+[debug] [2022-06-25T14:30:53.162Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/argentinaprograma-8c843 [none]
+[debug] [2022-06-25T14:30:54.332Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/argentinaprograma-8c843 403
+[debug] [2022-06-25T14:30:54.332Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/argentinaprograma-8c843 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-06-25T14:30:54.333Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-25T14:30:54.590Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\ale\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\ale\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:287:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
